@@ -10,6 +10,8 @@ body, html{
   background-color: #F6F6F3;
 }
 
+/*------------Nav bar on page------------*/
+
 .navigation-bar {
   overflow: hidden;
   /* background: linear-gradient(to right,#70A9A1,#9EC1A3,#CFE0C3); */
@@ -24,14 +26,23 @@ body, html{
   
 }
 
-.navigation-bar .links{
-  padding: 1%;
+.nav-style{
+  padding: 100%;
   padding-right: 1.5%;
   padding-left: 1.5%;
   font-size: 110%;
   font-weight: 500;
   text-decoration: inherit;
+}
+
+.navigation-bar .links{
   color: #31493D;
+}
+
+.on-page{
+  background-color: #588157;
+  color: white;
+  height: 100%;
 }
 
 .navigation-bar .links:hover{
@@ -39,12 +50,17 @@ body, html{
   color: white;
 }
 
+.navigation-bar  .on-page:hover{
+  background-color: #588157;
+  color: white;
+}
+
+/*------------Flex Home Page------------*/
 
 .flex-container{
   width: 100%;
   display: flex;
   flex-direction: row;
-  /* place-items: center; */
   flex-wrap: wrap;
   padding: 2rem;
   max-width: 1280px;
@@ -58,7 +74,7 @@ body, html{
   border-radius: 10px;
 }
 
-.flex-container p {
+.flex-container .flex-text {
   flex-basis: 400px;
   flex-grow: 1;
   padding: 1rem;
@@ -72,3 +88,23 @@ body, html{
   padding: 2rem;
 }
 
+
+
+/*------------P element------------*/
+
+p{
+  font-size: 1.5em;
+}
+
+/*------------Button------------*/
+
+.button{
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: #B2BE9D;
+  color: #31493D;
+}

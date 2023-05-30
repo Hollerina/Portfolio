@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 
@@ -11,7 +9,7 @@ function Projects() {
 
   return (
     <>
-        <Navbar />
+        <Navbar location="/about" />
         <h1>Holly</h1>
     </>
   )
