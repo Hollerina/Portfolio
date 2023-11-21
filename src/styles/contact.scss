@@ -1,0 +1,134 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.contact{
+    font-family: 'Mulish', sans-serif;
+    display: block;
+}
+
+.contact-row{
+    margin-left: 0 ;
+}
+
+.left-col-contact{
+    text-align: right;
+    padding-right: 35px ; 
+  }
+  
+.right-col-contact{
+    text-align: left;
+    padding-left: 35px ;
+    padding-right: 10% ;
+    min-width: 550px;
+}
+
+
+.query{
+    height: 15em;
+}
+
+.margin-contact{
+    margin-top: 5%;
+}
+
+.button-div{
+    text-align: center;
+}
+
+.button-contact{
+    background-color: $teal-800;
+    border-color: $teal-700;
+    text-align: center;
+    width: 50%;
+}
+
+.button-contact:hover{
+    background-color: $teal-700;
+}
+
+
+/***********Media Querries For Contact***************/
+
+@media screen and (max-width: 1550px) {
+    .contact-img{
+        width: 384px;
+        height: 384px;
+    }
+
+    .margin-contact{
+        margin-top: 3%;
+    }
+
+    .query{
+        height: 10em;
+    }
+}
+
+
+@media screen and (max-width: 981px) {
+    .contact-img{
+        width: 576px;
+        height: 576px;
+    }
+
+    .margin-contact{
+        margin-top: 2%;
+    }
+
+    .query{
+        height: 7em;
+    }
+
+    .left-col-contact{
+        padding-top: 0 ;
+    }
+
+    .right-col-contact{
+        padding-right: 7% ;
+        padding-left: 0 ;
+    }
+}
+
+@media screen and (max-width:635px) {
+
+    .contact-img{
+        width: 384px;
+        height: 384px;
+    }
+
+    .right-col-contact{
+        padding-left: 7%;
+        padding-bottom: 15%;
+        min-width: 350px;
+        
+    }
+
+    .left-col-contact{
+        padding-top: 15%;
+    }
+    
+}
+
+@media screen and (max-width:520px) {
+
+    .contact-img{
+        width: 288px;
+        height: 288px;
+    }
+
+    .right-col-contact{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 0;
+        
+    }
+
+    .left-col-contact{
+        padding-top: 10%;
+        padding-bottom: 3%;
+        
+    }
+}
+
+
+
+

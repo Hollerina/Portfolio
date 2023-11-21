@@ -1,0 +1,5 @@
+I created this website as a way to express myself and show all of the work I have achieved. I have always enjoyed a challenge along with taking the oppertunity to learn a new skill when I can. Thus when deciding what to use to create this site in I choose to devlop my web development skills by learning React and Bootstrap. Along with this I have taken up a hobby of pixel art and believe this site would be a perfect way to express and therefore all assessts are hand drawn.
+
+This project has devloped many of my skills as well as gaining new ones. The first being as the project progressed I know that my CSS skills and ability have also progressed. A new skill I have acquired is understanding and using API's. Before this project I had no expereince with them, however currently I am training for a triathlon and wanted to show my progress using the Strava API. Secondly I knew I wanted a contact me page on my site and I thought that using EmailJS would be the perfect oppertunity for this.
+
+Overall I have had fun learning how React and Bootstrap work together btu mostly I am proud of the work I have produced and believe that it represents me. 

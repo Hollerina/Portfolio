@@ -1,0 +1,255 @@
+/*************Overriding the size variables*********************/
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 941px,
+  lg: 1000px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.main-body-contact{
+    max-width: 100%;
+
+  }
+
+.about-title{
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
+    padding: 1rem;
+    background-color: $gray-100;
+    border: 3px solid ;
+    border-color: $teal-700;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0 !important;
+    
+}
+
+.carousel-size{
+    max-width: 100%;
+    min-height: 512px;
+    text-align: center;
+}
+
+.carousel-title{
+    padding-top: 1%;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.div-carousel{
+    max-width: 58.875rem;
+    margin: auto;
+    height: 512px;
+    background: url("../assets/pictures/container_background_smaller.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.uni-img{
+    width: 350px;
+    height: 350px;
+}
+
+.left-col-about{
+    // text-align: right;
+    // margin-right: 100px !important; 
+    padding-top: 5%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+}
+
+.right-col-about{
+    padding-right: 10% !important;
+    padding-top: 5%;
+    font-size: 20px;
+    
+}
+
+.about-para{
+    padding-left: 3% !important;
+    padding-right: 4% !important;
+    padding-top: 8%;
+    font-size: 22px;
+}
+
+.scrollable-div{
+    overflow-y: scroll;
+    height: 400px;
+    padding-top: 0;
+    padding-left: 3% !important;
+    padding-right: 4% !important;
+    font-size: 22px;
+    
+}
+
+h4{
+    text-decoration: underline;
+    text-decoration-color: $teal-800;
+}
+
+.left-about{
+    text-align: left;
+}
+
+.right-about{
+    text-align: right;
+}
+
+.list-strava{
+    font-size: 19px;
+}
+
+
+/********************MEDIA QUERIES**********************/
+@media screen and (max-width: 941px) {
+    .carousel-size{
+        max-width: 100%;
+        height: 55rem;
+        text-align: center;
+    }
+
+    .div-carousel{
+        max-width: 43.75rem;
+        height: 55rem;
+        background: url("../assets/pictures/container_background_tablet_big.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 5rem;
+        padding-bottom: 6.5rem;
+
+
+    }
+
+    .carousel-title{
+        padding: 3%;
+        font-weight: 400;
+    }
+
+    .about-para{
+        padding-left: 5% !important;
+        padding-right: 8% !important;
+        padding-top: 22%;
+        font-size: 20px;
+    }
+
+    .right-col-about{
+        padding-right: 8% !important;
+        padding-top: 0;
+        padding-left: 5% !important;
+        font-size: 20px;
+        
+    }
+
+    .left-col-about{
+        padding-top: 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        
+    }
+
+    .triathlon-img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .triathlon-txt{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 710px) {
+    .carousel-size{
+        max-width: 100%;
+        height: 55rem;
+        text-align: center;
+    }
+
+    .div-carousel{
+        max-width: 28.125rem;
+        height: 55rem;
+        background: url("../assets/pictures/container_background_tablet.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+
+
+    }
+
+    .uni-img{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .carousel-size{
+        max-width: 100%;
+        height: 55rem;
+        text-align: center;
+    }
+
+    .div-carousel{
+        max-width: 23.438rem;
+        height: 55rem;
+        background: url("../assets/pictures/container_background_phone.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .uni-img{
+        margin: 1%;
+    }
+
+    .carousel-title{
+        padding: 3%;
+        font-weight: 400;
+    }
+
+    .about-para{
+        padding-left: 6% !important;
+        padding-right: 9% !important;
+        padding-top: 22%;
+        font-size: 20px;
+    }
+
+    .right-col-about{
+        padding-right: 9% !important;
+        padding-top: 0;
+        padding-left: 5% !important;
+        font-size: 18px;
+        
+    }
+
+    .triathlon-txt{
+        font-size: 16px;
+    }
+
+    .list-group-card{
+        font-size: 16px;
+    }
+
+    .left-col-about{
+        padding-top: 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        
+    }
+
+    
+}
+
+.map-box{
+    max-width: 30rem;
+    max-height: 20rem;
+}
